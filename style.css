@@ -1,0 +1,130 @@
+/* Menu de navigation */
+
+.container-fluid {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #000000;
+	width: 100%;
+	height: 100%;
+	max-width: 1430px;
+}
+.nav-item {
+	text-decoration: none;
+	/*font-family: "Kaushan Script", cursive;*/
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: bold;
+	height: 100%;
+}
+.nav-item a:hover {
+	color: #000000;
+	background-color: #fff;
+}
+
+/* autrres */
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	/* top: 49px; */
+}
+
+.image-header{
+	background-image: url("https://thehill.com/wp-content/uploads/sites/2/2021/09/ca_michelle_090221getty.jpg?strip=1");
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+
+#biography {
+	display: flex;
+	flex-direction: column;
+	padding-top: 65px;
+	background-color: #f2f2f2;
+	width: 100%;
+}
+.img-border-radius {
+  height: 300px;
+  border-radius: 50%;
+}
+
+.tribute-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0 90px 40px 90px;
+}
+
+.tribute-info img {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+}
+
+.tribute-info p {
+	width: 800px;
+	line-height: 1.8;
+	padding: 20px;
+	font-size: 18px;
+}
+
+.videos{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center; 
+	padding: 0 90px 40px 90px;
+}
+
+.videos video{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	position:relative;
+	left: -100;
+}
+
+.videos p {
+	width: 800px;
+	line-height: 1.8;
+	padding: 20px;
+	font-size: 18px;
+}
+
+.logo {
+	margin: 0 15px;
+}
+
+#info {
+	display: flex;
+	flex-direction: column;
+	padding: 40px 0;
+}
+
+
+
+.content-logos {
+	display: flex;
+	flex-direction: row;
+	padding: 20px 0; 
+	margin-left: 45%;
+}
+
+.logo {
+	margin: 0 15px;
+}
+
+footer {
+	
+	background-color: #000000;
+}
